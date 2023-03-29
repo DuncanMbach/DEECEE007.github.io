@@ -344,10 +344,10 @@ nav ul li a{
     font-size: 11px;
 }
 div .img{
-    width :240px;
-    height: 200px;
+    width :320px;
+    height: 150px;
     padding-bottom: 6px;
-    padding-left: 6px;
+    margin-left: 15px;
     padding-top: 6px;
     padding-right:6px;
     margin-left: 3px;
