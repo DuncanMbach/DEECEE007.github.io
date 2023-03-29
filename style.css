@@ -308,10 +308,10 @@ nav ul li a{
 }
 
 .randompic img{
-    width: 150px;
-    height:90px;
+    width: 300px;
+    height:200px;
     margin-top:4px;
-    margin-bottom: 4px;
+    margin-bottom: 10px;
     padding-left: 4px;
     border-radius: 4px;
 }
