@@ -1,0 +1,399 @@
+/*-------------index page-----------*/
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    min height:100vh;
+    height:100%;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-image:url(images/369890.jpg);
+    background-size: cover;
+}
+.navbar{
+    width:100%;
+    display:flex;
+    align-items: center;
+
+}
+/*---------logo-------*/
+.logo{
+    width:100px;
+    margin:30px 0;
+    cursor: pointer;
+    border:solid 2px #87CEEB;
+    border-radius: 5px;  
+}
+/*--------nav bar--------*/
+nav{
+    text-align: right;
+    flex:1;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:#87CEEB;
+    font-size: 14px;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #87CEEB;
+    padding: 12px 34px;
+    font-size: 14px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    border-radius: 5px;
+}
+nav ul li a:hover{
+    cursor: pointer;
+    background-color:#87CEEB ;
+}
+
+/*---------------row--------------*/
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 0;
+    color: #fff;
+
+}
+.col-1{
+    margin-left: 50px;
+
+}
+.heading{
+    font-size: 50px;
+    cursor: pointer;
+    color:#87CEEB;
+    
+    
+}
+.heading:hover{
+    color:#ff033e;
+}
+.col-1 h3{
+    font-size: 20px;
+    cursor: pointer;
+    color:#87CEEB;
+}
+.col-1 h3:hover{
+    color:#ff033e;
+}
+.gamelist{
+    margin-top: 20px;
+    margin-right: 50px;
+    list-style: none;
+    align-items: center;
+    font-size: 14px;
+}
+
+/*------------sample pics--------*/
+
+.randompic{
+    align-items: center;
+
+}
+.randompic img{
+    width: 25%;
+    height:25%;
+    margin-bottom: 2px;
+    border-radius: 25px;
+}
+
+/*---credits----*/
+
+.credits{
+    color:#fff;
+    font-size: 10px;
+    margin-left: 550px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+.credits ul{
+    list-style:none;
+}
+
+/*--------ABOUT PAGE-----------*/
+
+.information{
+    text-align: center;
+    padding-left: 8%;
+    padding-right: 8%;
+    margin-bottom: 50px;
+    color: #fff;
+
+   }
+.information h1{
+    font-size: 50px;
+    text-align: left;
+    margin: 14px;
+    padding-left: 20px;
+    color:#87CEEB;
+     
+}
+.information h1:hover{
+    color:#ff033e;
+}
+.information h3{
+    text-align: left;
+    font-size: 14px;
+    padding-top: 14px;
+    padding-left: 0px;
+
+}
+
+/*--------contact us---------*/
+
+.contacts{
+    
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 80%;
+    height: 25%;
+    background-image: url(images/369890.jpg);
+    align-items: center;
+    border-radius: 25px; 
+    margin-top: 30px;
+    margin-left:10%;
+}
+
+.contacts h4{
+
+    font-size: 30px;
+    font-family: sans-serif;
+
+}
+
+.contacts ul{
+    padding-top: 20px;
+    font-family: sans-serif;
+    font-size: 14px;
+    list-style: none;
+}
+
+.contacts ul li a{
+    color:#87CEEB ;
+}
+.contacts ul li a:hover{
+    color:#ff033e;
+}
+.credit{
+    margin-left:0px;
+    color: #fff;
+    font-size: 5px;
+}
+
+
+/*-------------GAMES----------*/
+
+.disc{
+    color: black;
+    padding:20px;
+    border:solid 3px #87CEEB;
+    margin-top:5px;
+    margin-left: 100px;
+    width:80%;
+
+}
+
+/*-------game boxes---------*/
+
+.games{
+    
+    margin-left: 100px;
+
+}
+div .img{
+    float:left;
+    background-image:url(images/369890.jpg) ;
+    width :500px;
+    height: 200px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    padding-top: 16px;
+    padding-right: 16px;
+    margin-left: 30px;
+    margin-top: 14px;
+    border-radius: 25px;
+    object-position: center;
+    display: flex;
+}
+div .img a img {
+    width:220PX;
+    padding-bottom:10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    background-color: black;
+    border-radius: 25px;
+
+}
+div .img a:hover{
+    border: solid 1px #87CEEB ;
+}
+div .img h4{
+    text-align: left;
+    margin-left: 20px; 
+    color:#87CEEB;
+
+}
+div .img h4:hover{
+    color: #ff033e;
+}
+div .img ul li{
+    color: #fff;
+    float: left;
+    font-size: 11px;
+    text-align: justify;
+    margin-left: 16px;
+
+}
+
+.games::after{
+     content:"";
+     display: table;
+     clear: both;
+}
+
+
+/*--------------media queries-------------*/
+
+@media screen and (max-width:600px){
+    /*------------------home page------------*/
+.logo{
+    width:50px;  
+}
+
+.col-1 h1{
+    font-size: 25px;
+}
+.col-1 h3{
+    font-size: 15px;
+    
+}
+.col-1 p{
+    font-size: 12px;
+}
+.gamelist{
+    font-size: 10px;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 2px;
+}
+
+nav ul li a{
+
+    font-size: 12px;
+    border: 1px solid #fff;
+    padding:5px;
+    margin-bottom: 6px;
+    margin-left: 4px;
+    margin-right: 2px;
+    font-size: 10px;
+}
+
+.randompic img{
+    width: 150px;
+    height:90px;
+    margin-top:4px;
+    margin-bottom: 4px;
+    padding-left: 4px;
+    border-radius: 4px;
+}
+
+.credits{
+    color:#fff;
+    font-size: 7px;
+    margin-left:50px;
+}
+.credits ul{
+    list-style:none;
+}
+
+/*---------------about page---------*/
+.information h1{
+    font-size: 25px; 
+}
+.information h3{
+    
+    font-size: 12px;
+
+}
+.contacts ul{
+    font-size: 11px; 
+}
+
+/*--------------games page--------------*/
+
+.disc h3{
+    font-size: 11px;
+}
+div .img{
+    width :240px;
+    height: 200px;
+    padding-bottom: 6px;
+    padding-left: 6px;
+    padding-top: 6px;
+    padding-right:6px;
+    margin-left: 3px;
+    margin-top: 3px;
+    border-radius: 4px;
+}
+div .img a img {
+    width:60PX;
+    padding-bottom:2px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 2px;
+    border-radius: 4px;
+}
+/*-----games img----*/
+.games{
+    
+    margin-left: 0px;
+}
+div .img h4{
+    font-size: 10px;
+    margin-left: 20px;
+
+}
+div .img ul li{
+    font-size: 9px;
+    list-style: none;
+    margin-left: 2px;
+
+}
+.disc{
+    padding:5px;
+    border:solid 1px #87CEEB;
+    margin-top:5px;
+    margin-left: 10px;
+    width:80%;
+
+}
+.container{
+    background-image:url(images/369890.jpg);
+}
+div .img a:hover{
+    border: 0 ;
+}
+.contacts h4{
+    color:white;
+}
+
+}
